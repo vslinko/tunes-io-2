@@ -1,0 +1,24 @@
+{
+    "name": "tunes.io",
+    "version": "0.0.1",
+    "description": "add tunes.io library in your MPD",
+    "keywords": ["tunes.io", "mpd"],
+    "author": {
+        "name": "Vyacheslav Slinko",
+        "email": "vyacheslav.slinko@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/rithis/tunes-io"
+    },
+    "scripts": {
+        "start": "node_modules/.bin/coffee tunes.io.coffee"
+    },
+    "dependencies": {
+        "coffee-script": "~1.4",
+        "async": "~0.1",
+        "winston": "~0.6",
+        "xml-stream": "~0.4",
+        "mpd-ng": "~0.0"
+    }
+}
